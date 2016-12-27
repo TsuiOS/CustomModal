@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79A9E2091E1266F400E34B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A9E2081E1266F400E34B36 /* main.m */; };
+		79A9E20C1E1266F400E34B36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A9E20B1E1266F400E34B36 /* AppDelegate.m */; };
+		79A9E20F1E1266F400E34B36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A9E20E1E1266F400E34B36 /* ViewController.m */; };
+		79A9E2121E1266F400E34B36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A9E2101E1266F400E34B36 /* Main.storyboard */; };
+		79A9E2141E1266F400E34B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A9E2131E1266F400E34B36 /* Assets.xcassets */; };
+		79A9E2171E1266F400E34B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A9E2151E1266F400E34B36 /* LaunchScreen.storyboard */; };
+		79A9E2201E1267FA00E34B36 /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A9E21F1E1267FA00E34B36 /* UIViewController+KNSemiModal.m */; };
+		79A9E2231E12693C00E34B36 /* XNMPayMethodView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A9E2221E12693C00E34B36 /* XNMPayMethodView.m */; };
+		79A9E2261E1269A500E34B36 /* UIView+XNFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A9E2251E1269A500E34B36 /* UIView+XNFrame.m */; };
+		79A9E22A1E126CA800E34B36 /* XNMPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A9E2281E126CA800E34B36 /* XNMPayViewController.m */; };
+		79A9E22B1E126CA800E34B36 /* XNMPayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79A9E2291E126CA800E34B36 /* XNMPayViewController.xib */; };
+		79A9E22F1E127A1700E34B36 /* XNMSeimiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A9E22D1E127A1700E34B36 /* XNMSeimiViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79A9E2041E1266F400E34B36 /* CustomModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A9E2081E1266F400E34B36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79A9E20A1E1266F400E34B36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79A9E20B1E1266F400E34B36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79A9E20D1E1266F400E34B36 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79A9E20E1E1266F400E34B36 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79A9E2111E1266F400E34B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79A9E2131E1266F400E34B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79A9E2161E1266F400E34B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79A9E2181E1266F400E34B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A9E21E1E1267FA00E34B36 /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		79A9E21F1E1267FA00E34B36 /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
+		79A9E2211E12693C00E34B36 /* XNMPayMethodView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNMPayMethodView.h; sourceTree = "<group>"; };
+		79A9E2221E12693C00E34B36 /* XNMPayMethodView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNMPayMethodView.m; sourceTree = "<group>"; };
+		79A9E2241E1269A500E34B36 /* UIView+XNFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XNFrame.h"; sourceTree = "<group>"; };
+		79A9E2251E1269A500E34B36 /* UIView+XNFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XNFrame.m"; sourceTree = "<group>"; };
+		79A9E2271E126CA800E34B36 /* XNMPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNMPayViewController.h; sourceTree = "<group>"; };
+		79A9E2281E126CA800E34B36 /* XNMPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNMPayViewController.m; sourceTree = "<group>"; };
+		79A9E2291E126CA800E34B36 /* XNMPayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XNMPayViewController.xib; sourceTree = "<group>"; };
+		79A9E22C1E127A1700E34B36 /* XNMSeimiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNMSeimiViewController.h; sourceTree = "<group>"; };
+		79A9E22D1E127A1700E34B36 /* XNMSeimiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNMSeimiViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79A9E2011E1266F400E34B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79A9E1FB1E1266F400E34B36 = {
+			isa = PBXGroup;
+			children = (
+				79A9E2061E1266F400E34B36 /* CustomModal */,
+				79A9E2051E1266F400E34B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79A9E2051E1266F400E34B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79A9E2041E1266F400E34B36 /* CustomModal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79A9E2061E1266F400E34B36 /* CustomModal */ = {
+			isa = PBXGroup;
+			children = (
+				79A9E2241E1269A500E34B36 /* UIView+XNFrame.h */,
+				79A9E2251E1269A500E34B36 /* UIView+XNFrame.m */,
+				79A9E21E1E1267FA00E34B36 /* UIViewController+KNSemiModal.h */,
+				79A9E21F1E1267FA00E34B36 /* UIViewController+KNSemiModal.m */,
+				79A9E20A1E1266F400E34B36 /* AppDelegate.h */,
+				79A9E20B1E1266F400E34B36 /* AppDelegate.m */,
+				79A9E20D1E1266F400E34B36 /* ViewController.h */,
+				79A9E20E1E1266F400E34B36 /* ViewController.m */,
+				79A9E2101E1266F400E34B36 /* Main.storyboard */,
+				79A9E2211E12693C00E34B36 /* XNMPayMethodView.h */,
+				79A9E2221E12693C00E34B36 /* XNMPayMethodView.m */,
+				79A9E2271E126CA800E34B36 /* XNMPayViewController.h */,
+				79A9E2281E126CA800E34B36 /* XNMPayViewController.m */,
+				79A9E2291E126CA800E34B36 /* XNMPayViewController.xib */,
+				79A9E22C1E127A1700E34B36 /* XNMSeimiViewController.h */,
+				79A9E22D1E127A1700E34B36 /* XNMSeimiViewController.m */,
+				79A9E2131E1266F400E34B36 /* Assets.xcassets */,
+				79A9E2151E1266F400E34B36 /* LaunchScreen.storyboard */,
+				79A9E2181E1266F400E34B36 /* Info.plist */,
+				79A9E2071E1266F400E34B36 /* Supporting Files */,
+			);
+			path = CustomModal;
+			sourceTree = "<group>";
+		};
+		79A9E2071E1266F400E34B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79A9E2081E1266F400E34B36 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A9E2031E1266F400E34B36 /* CustomModal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A9E21B1E1266F400E34B36 /* Build configuration list for PBXNativeTarget "CustomModal" */;
+			buildPhases = (
+				79A9E2001E1266F400E34B36 /* Sources */,
+				79A9E2011E1266F400E34B36 /* Frameworks */,
+				79A9E2021E1266F400E34B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomModal;
+			productName = CustomModal;
+			productReference = 79A9E2041E1266F400E34B36 /* CustomModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79A9E1FC1E1266F400E34B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = xuning;
+				TargetAttributes = {
+					79A9E2031E1266F400E34B36 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 79A9E1FF1E1266F400E34B36 /* Build configuration list for PBXProject "CustomModal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79A9E1FB1E1266F400E34B36;
+			productRefGroup = 79A9E2051E1266F400E34B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A9E2031E1266F400E34B36 /* CustomModal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79A9E2021E1266F400E34B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A9E2171E1266F400E34B36 /* LaunchScreen.storyboard in Resources */,
+				79A9E22B1E126CA800E34B36 /* XNMPayViewController.xib in Resources */,
+				79A9E2141E1266F400E34B36 /* Assets.xcassets in Resources */,
+				79A9E2121E1266F400E34B36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79A9E2001E1266F400E34B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A9E2261E1269A500E34B36 /* UIView+XNFrame.m in Sources */,
+				79A9E20F1E1266F400E34B36 /* ViewController.m in Sources */,
+				79A9E2201E1267FA00E34B36 /* UIViewController+KNSemiModal.m in Sources */,
+				79A9E2231E12693C00E34B36 /* XNMPayMethodView.m in Sources */,
+				79A9E22F1E127A1700E34B36 /* XNMSeimiViewController.m in Sources */,
+				79A9E22A1E126CA800E34B36 /* XNMPayViewController.m in Sources */,
+				79A9E20C1E1266F400E34B36 /* AppDelegate.m in Sources */,
+				79A9E2091E1266F400E34B36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79A9E2101E1266F400E34B36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A9E2111E1266F400E34B36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79A9E2151E1266F400E34B36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79A9E2161E1266F400E34B36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79A9E2191E1266F400E34B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79A9E21A1E1266F400E34B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A9E21C1E1266F400E34B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsuios.CustomModal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79A9E21D1E1266F400E34B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomModal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsuios.CustomModal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79A9E1FF1E1266F400E34B36 /* Build configuration list for PBXProject "CustomModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A9E2191E1266F400E34B36 /* Debug */,
+				79A9E21A1E1266F400E34B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A9E21B1E1266F400E34B36 /* Build configuration list for PBXNativeTarget "CustomModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A9E21C1E1266F400E34B36 /* Debug */,
+				79A9E21D1E1266F400E34B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79A9E1FC1E1266F400E34B36 /* Project object */;
+}
